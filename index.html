@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form Validation</title>
+</head>
+<body>
+    <div class="form-section">
+        <h3>Registration Form</h3>
+        <div class="step-btns">
+            <button class="btn active" id="step-btns-name">Name</button>
+            <button class="btn" id="step-btns-contact">Contact</button>
+            <button class="btn" id="step-btns-birth">Birth</button>
+            <button class="btn" id="step-btns-submit">Preview</button>
+        </div>
+        <!-- Name Step Start -->
+        <form action="" id="name-step">
+            <h3>Basic Info:</h3>
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name">
+            <button type="button" class="next-btn" id="next-btn-name">Next</button>
+        </form>
+        <!-- Name Step End -->
+        <!-- Contact Step Start -->
+        <form action="" id="Contact-step">
+            <h3>Contact Info:</h3>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone">
+            <button type="button" class="next-btn" id="next-btn-contact">Next</button>
+        </form>
+        <!-- Contact Step End -->
+        <!-- Birth Info Step Start -->
+        <form action="" id="birth-step">
+            <h3>Birth Info:</h3>
+            <label for="birth-date">Select Your Birth Date</label>
+            <input type="date" name="birth-date" id="birth-date">
+            <label for="birth-place">Birth Place</label>
+            <input type="text" name="birth-place" id="birth-place">
+            <button type="button" class="next-btn" id="next-btn-birth">Next</button>
+        </form>
+        <!-- Birth Info Step Ended -->
+        <!-- Preview step started -->
+        <div id="preview-step">
+            <p id="Preview-name">Preview texxt</p>
+            <p id="Preview-email">bhjbjk</p>
+            <p id="Preview-phone"></p>
+            <p id="Preview-birth-date"></p>
+            <p id="Preview-birth-place"></p>
+            <button type="submit" class="next-btn" onclick="() => {window.location.reload()}">Submit</button>
+        </div>
+        <!-- Preview step End -->
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>

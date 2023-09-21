@@ -1,0 +1,88 @@
+body {
+    background-color: #cbcdd1;
+}
+
+.form-section {
+    background-color: #fff;
+    width: 300px;
+    max-width: 600px;
+    margin: 100px auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.step-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+label {
+    display: block;
+}
+
+input {
+    border: 1px solid #cbcdd1;
+    width: 80%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+
+input[type = submit] {
+    text-align: center;
+}
+
+form {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.active {
+    color: rgb(243, 88, 114);
+}
+
+.next-btn {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: rgb(243, 88, 114);
+    color: #fff;
+}
+
+.display-none {
+    display: none;
+}
+
+#name-step {
+    display: block;
+}
+
+#Contact-step {
+    display: none;
+}
+
+#birth-step {
+    display: none;
+}
+
+#preview-step {
+    display: none;
+}
+
+#preview-name,#preview-email,#preview-phone,#preview-birth-date,#preview-birth-place {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
